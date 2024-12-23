@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_hw11: phony || .
 
 build CMakeFiles/hw11.dir/main.cpp.obj: CXX_COMPILER__hw11_unscanned_Debug E$:/codes/ise/hw11/main.cpp || cmake_object_order_depends_target_hw11
   DEP_FILE = CMakeFiles\hw11.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always   -D LOCAL
   OBJECT_DIR = CMakeFiles\hw11.dir
   OBJECT_FILE_DIR = CMakeFiles\hw11.dir
 
@@ -84,7 +84,7 @@ build cmake_object_order_depends_target_coins: phony || .
 
 build CMakeFiles/coins.dir/coins.cpp.obj: CXX_COMPILER__coins_unscanned_Debug E$:/codes/ise/hw11/coins.cpp || cmake_object_order_depends_target_coins
   DEP_FILE = CMakeFiles\coins.dir\coins.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always   -D LOCAL
   OBJECT_DIR = CMakeFiles\coins.dir
   OBJECT_FILE_DIR = CMakeFiles\coins.dir
 

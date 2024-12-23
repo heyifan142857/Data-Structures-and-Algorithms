@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "coins::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-coins-Debug-2b2cbc804064942386fe.json",
+					"jsonFile" : "target-coins-Debug-f9cb7e4cb193c6dec8ed.json",
 					"name" : "coins",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "hw11::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hw11-Debug-d96dc4cdbb554d22eaad.json",
+					"jsonFile" : "target-hw11-Debug-7a10cafa6cb8e4afbb42.json",
 					"name" : "hw11",
 					"projectIndex" : 0
 				}

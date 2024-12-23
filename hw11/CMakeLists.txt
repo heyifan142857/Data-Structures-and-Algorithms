@@ -3,6 +3,8 @@ project(hw11)
 
 set(CMAKE_CXX_STANDARD 20)
 
+add_definitions(-D LOCAL)
+
 add_executable(hw11 main.cpp)
 
 add_executable(coins coins.cpp)
