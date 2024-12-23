@@ -1,5 +1,6 @@
 E:/codes/ise/hw11/cmake-build-debug/CMakeFiles/hw11.dir
 E:/codes/ise/hw11/cmake-build-debug/CMakeFiles/coins.dir
 E:/codes/ise/hw11/cmake-build-debug/CMakeFiles/tree.dir
+E:/codes/ise/hw11/cmake-build-debug/CMakeFiles/partition.dir
 E:/codes/ise/hw11/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/codes/ise/hw11/cmake-build-debug/CMakeFiles/rebuild_cache.dir

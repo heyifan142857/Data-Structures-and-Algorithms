@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -52,6 +54,13 @@
 					"id" : "hw11::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-hw11-Debug-7a10cafa6cb8e4afbb42.json",
 					"name" : "hw11",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "partition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-partition-Debug-7f55b2c6801d365ebee3.json",
+					"name" : "partition",
 					"projectIndex" : 0
 				},
 				{

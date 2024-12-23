@@ -10,3 +10,5 @@ add_executable(hw11 main.cpp)
 add_executable(coins coins.cpp)
 
 add_executable(tree tree.cpp)
+
+add_executable(partition partition.cpp)

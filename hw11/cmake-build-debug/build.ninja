@@ -139,6 +139,39 @@ build tree.exe: CXX_EXECUTABLE_LINKER__tree_Debug CMakeFiles/tree.dir/tree.cpp.o
   TARGET_IMPLIB = libtree.dll.a
   TARGET_PDB = tree.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target partition
+
+
+#############################################
+# Order-only phony target for partition
+
+build cmake_object_order_depends_target_partition: phony || .
+
+build CMakeFiles/partition.dir/partition.cpp.obj: CXX_COMPILER__partition_unscanned_Debug E$:/codes/ise/hw11/partition.cpp || cmake_object_order_depends_target_partition
+  DEP_FILE = CMakeFiles\partition.dir\partition.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always   -D LOCAL
+  OBJECT_DIR = CMakeFiles\partition.dir
+  OBJECT_FILE_DIR = CMakeFiles\partition.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target partition
+
+
+#############################################
+# Link the executable partition.exe
+
+build partition.exe: CXX_EXECUTABLE_LINKER__partition_Debug CMakeFiles/partition.dir/partition.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\partition.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = partition.exe
+  TARGET_IMPLIB = libpartition.dll.a
+  TARGET_PDB = partition.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -169,6 +202,8 @@ build coins: phony coins.exe
 
 build hw11: phony hw11.exe
 
+build partition: phony partition.exe
+
 build tree: phony tree.exe
 
 # =============================================================================
@@ -179,7 +214,7 @@ build tree: phony tree.exe
 #############################################
 # Folder: E:/codes/ise/hw11/cmake-build-debug
 
-build all: phony hw11.exe coins.exe tree.exe
+build all: phony hw11.exe coins.exe tree.exe partition.exe
 
 # =============================================================================
 # Built-in targets
